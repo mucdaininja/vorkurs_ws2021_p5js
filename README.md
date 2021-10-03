@@ -17,4 +17,9 @@ have fun and explore. Programming is largely about curiosity!
 Don't forget to use the [p5 documentation](https://p5js.org/reference/). Modify the spray-brush (eg. remove 
 the circles' outline), play around with the random values etc.
 
-Take care. The Ninja.
+## Share it
+
+Want to share your own version of the paint-app? Send me a link to your p5js project or GitHub repo via eMail (or Slack for the
+MUC.DAI folks) and I'll be happy to link it here :)
+
+Take care and enjoy your studies. The Ninja.
