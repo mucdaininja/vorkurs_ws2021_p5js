@@ -1,9 +1,12 @@
+// Global variables.
 let brushMode
 let brushSize
 let saveButton
 let myCanvas
 
-function setup() {
+// This function will run *once* after clicking the play-button in the editor!
+// It is special in that it is recognized by p5 by its name 'setup'.
+function setup() { 
   
   myCanvas = createCanvas(1000, 1000);
   
@@ -45,7 +48,9 @@ function paintSpray() {
          brushSize + random(0, 20))
 }
 
-function draw() {
+// This function gets called over and over again... as long as you hit stop or the battery dies, or the seven riders of the apocalypse appear
+// Just like the 'setup' function it is special because of its name 'draw'.
+function draw() { 
 
   selectBrushMode()
   
